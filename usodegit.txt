@@ -1,0 +1,18 @@
+comandos más importantes
+
+git init: creación de un repositorio local (staging area: área de preparación, 
+        preparando los cambio para que sean reales, meter todo lo que sea un cambio (hsitorial de cambios))
+
+primer cambio --> creación (aunque ya exita pero se crea por primera vez en git, es neuno en git) se usa git add
+git add: creación del primer archivo en git hub, o la modificación de éste, lo agrega al área de preparación (staging area)
+
+git commit: confirmar los cambios que se estan haciendo --> generación del historial de cambios
+ya esta en un repositorio local ---> llevarlo a un repositorio remoto git push
+
+git status: estado actual del repositorio
+        untracked : documentos desconocidos para git (no están en el repositorio)
+git add <archivo>: en archivo coloco el archivo que quiero agregar al repositorio de git
+
+git .: agrega todos los archivos al repositorio local 
+        (ejemplos  git *.txt) el asteristo es una expresión regular (suplanta cualquier texto, es como un comodin, significa cualquier cosa)
+git . = git *.*
