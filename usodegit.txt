@@ -10,9 +10,26 @@ git commit: confirmar los cambios que se estan haciendo --> generación del hist
 ya esta en un repositorio local ---> llevarlo a un repositorio remoto git push
 
 git status: estado actual del repositorio
-        untracked : documentos desconocidos para git (no están en el repositorio)
+       U al lado de los nombres de los archivos significa untracked documentos desconocidos (no están en el repositorio de git, no es rastreado)
+       A al lado de los nombres de los archivos significa añadido
+       M al lado de los nombres de los archivos significa modificado
+
+
 git add <archivo>: en archivo coloco el archivo que quiero agregar al repositorio de git
 
-git .: agrega todos los archivos al repositorio local 
-        (ejemplos  git *.txt) el asteristo es una expresión regular (suplanta cualquier texto, es como un comodin, significa cualquier cosa)
-git . = git *.*
+git add .: agrega todos los archivos al repositorio local 
+        (ejemplos  git *.txt) el asteristo es una expresión regular
+        (suplanta cualquier texto, es como un comodin, significa cualquier cosa)
+git add . = git add *.*
+
+git rm -- cached <file> hace que el documento (archivo) no sea rastrado o reconocido por git ( no se pueden camibiar
+de status (A,U,) si el archivo esta siendo modificado)
+
+si no hay cambios al usar git commit, git te obliga a cambiar el documento (con los botones INSERTAR y ESCAPE ) 
+        :wq comando para cerrar el editor
+
+identificar al creador/a
+git config --global user.email "you@example.com"-- identificar correo
+git config --global user.name "Your Name" -- identificar el nombre del creador
+
+git log : historial de cambios
