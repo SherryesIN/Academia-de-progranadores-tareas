@@ -33,3 +33,8 @@ git config --global user.email "you@example.com"-- identificar correo
 git config --global user.name "Your Name" -- identificar el nombre del creador
 
 git log : historial de cambios
+
+git stach: recuperar/guardar cambios realizados en el código y retomar la última versión o commit almacenado
+
+git fetch: actualiza los commits, archivos y referencias de un repositorio remoto a tu repositorio local
+        git pull: los trae a tu repositorio
