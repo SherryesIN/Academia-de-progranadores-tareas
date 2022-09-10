@@ -34,6 +34,9 @@ git config --global user.name "Your Name" -- identificar el nombre del creador
 
 git log : historial de cambios
 
+creador de nuevas ramas y mezcla
+
+
 git stach: recuperar/guardar cambios realizados en el código y retomar la última versión o commit almacenado
 
 git fetch: actualiza los commits, archivos y referencias de un repositorio remoto a tu repositorio local
