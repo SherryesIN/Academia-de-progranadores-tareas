@@ -8,6 +8,7 @@ git add: creación del primer archivo en git hub, o la modificación de éste, l
 
 git commit: confirmar los cambios que se estan haciendo --> generación del historial de cambios
 ya esta en un repositorio local ---> llevarlo a un repositorio remoto git push
+                git commit -m
 
 git status: estado actual del repositorio
        U al lado de los nombres de los archivos significa untracked documentos desconocidos (no están en el repositorio de git, no es rastreado)
@@ -41,3 +42,11 @@ git stach: recuperar/guardar cambios realizados en el código y retomar la últi
 
 git fetch: actualiza los commits, archivos y referencias de un repositorio remoto a tu repositorio local
         git pull: los trae a tu repositorio
+
+git checkout - b "nombre de la rama"- crea una nueva rama y te mueves a ella
+git branch : crea una nueva rama  con
+
+orden
+
+creas algo -> lo agregas al repositorio local (git add.) luego haces un git commit -m (nombre)
+(si son ramas las puedes mezclar con git merge)y luego lo empujas al repositorio con git push (con git status monitoreas tu estado actual)
