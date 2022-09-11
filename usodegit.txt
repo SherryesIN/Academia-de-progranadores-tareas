@@ -44,9 +44,12 @@ git fetch: actualiza los commits, archivos y referencias de un repositorio remot
         git pull: los trae a tu repositorio
 
 git checkout - b "nombre de la rama"- crea una nueva rama y te mueves a ella
-git branch : crea una nueva rama  con
+git branch : crea una nueva rama  con git checkout () te mueves hacia ella
 
 orden
 
 creas algo -> lo agregas al repositorio local (git add.) luego haces un git commit -m (nombre)
 (si son ramas las puedes mezclar con git merge)y luego lo empujas al repositorio con git push (con git status monitoreas tu estado actual)
+
+cd .. retroceder carpetas
+cd nombre carpeta 
