@@ -1,0 +1,31 @@
+Laboratorio de Git
+
+Crea un cuenta de GitHub si aún no tienes una
+
+De manera individual usando un editor de texto de tu preferencia, por ejemplo VSCode, usando la consola de tu sistema y consultando la documentación de Git
+
+Clona el siguiente repositorio: https://github.com/ada-school/git-practice
+
+Crea una rama localmente con tu nombre y apellido, e.g. ada-lovelace recuerda no incluir otros caracteres especiales
+
+Muevete a la rama creada
+
+Sigue las instrucciones del archivo git_commans.md
+
+Haz un commit con tus cambios, recuerda incluir un mensaje corto y descriptivo en el commit
+
+Pasate a la rama fix-format y revisa el contenido del archivo git_commands.md
+
+Vuelve a la rama que creaste inicialmente
+
+Incluye los cambios de la rama fix-format en tu rama usando el comando merge
+
+Resuelve los conflictos y haz un nuevo commit
+
+Remueve el repositorio remoto usando el comando git remote remove origin
+
+Crea un repositorio vacío en tu cuenta de github y sigue los pasos para conectarlo con tu repositorio local
+
+Sube todos los cambios de tu repositorio local a tu repositorio remoto
+
+Compartenos el enlace
